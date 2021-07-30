@@ -1,0 +1,48 @@
+.App {
+}
+
+.mainContainer {
+}
+
+.inputContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.addButton {
+  margin: 20px;
+  background-color: #482f34;
+  border-radius: 10px;
+  color: #ffffff;
+  padding: 10px;
+}
+
+.keywordsContainer {
+  display: flex;
+  width: 80vh;
+  flex-wrap: wrap;
+}
+
+.keywordContainer {
+  display: flex;
+  margin: 3px;
+  border-radius: 10px;
+  padding: 5px;
+  background-color: #E0FEFF;
+  border: 1px solid #2CDCE4;
+  color: #2CDCE4;
+  align-items: stretch;
+}
+
+.keywordRemoveButton {
+  height: 20px;
+  width: 20px;
+  border-radius: 100%;
+  background-color: red;
+  color: #ffffff;
+  margin-left: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center; 
+}
