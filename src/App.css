@@ -46,3 +46,19 @@
   align-items: center;
   justify-content: center; 
 }
+
+.paperContainer {
+  padding: 10px;
+  text-align: left;
+  color: #282c34;
+  margin-top: 5px;
+  width: 100%;
+  background-color: #B8B8B8;
+  border-radius: 20px;
+}
+
+.papersContainer {
+  padding: 5px;
+  display: flex;
+  flex-direction: column;
+}
