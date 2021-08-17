@@ -10,9 +10,8 @@ Not anymore!!!
 **Arxiv Watcher** is a chrome extension which allows you to add the specific keyword you wish to track and notifies you whenever a new paper is added to the arxiv relevant to the keywords you have added.
 
 
-<p align="center">
-    <img width = "100%" src = "docs/demo.gif" />
-</p>
+
+https://user-images.githubusercontent.com/32041242/129781083-df1516fa-3914-4597-ad3a-a7ddbf12a442.mp4
 
 Not only does this extension shows the latest papers added, but it checks arxiv in background at specific intervals and notifies the users whenever a new paper is added. Like this,
 
