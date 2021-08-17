@@ -6,8 +6,9 @@
     "default_popup": "index.html"
   },
   "background": {
-    "scripts": ["background.js"]
+    "scripts": ["background.js"],
+    "persistent": true
   },
   "icons": { "16": "logo192.png", "48": "logo512.png" },
-  "permissions": ["storage", "tabs", "<all_urls>"]
+  "permissions": ["notifications", "storage", "tabs", "<all_urls>", "alarms"]
 }

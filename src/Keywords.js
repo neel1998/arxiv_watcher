@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
-import './App.css';
+import './ArxivWatcher.css';
 const STORED_KEYWORDS_KEY = "keyword_list"
+const STORED_PAPERS_KEY = "papers_list"
 
 
 export default function Keywords(props) {
@@ -9,7 +10,12 @@ export default function Keywords(props) {
 		let storedKeywords = JSON.parse(window.localStorage.getItem(STORED_KEYWORDS_KEY))
 		storedKeywords.splice(storedKeywords.indexOf(props.keyword),1)
 		window.localStorage.setItem(STORED_KEYWORDS_KEY, JSON.stringify(storedKeywords))
-      	props.parent.createKeywordsList(storedKeywords)
+
+		let storedPapersData = JSON.parse(window.localStorage.getItem(STORED_PAPERS_KEY))
+		delete storedPapersData[props.keyword]
+		window.localStorage.setItem(STORED_PAPERS_KEY, JSON.stringify(storedPapersData))
+
+		props.parent.fetchAndDisplayStoredData()
 	}
 
 	return (

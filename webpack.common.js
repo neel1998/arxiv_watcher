@@ -5,7 +5,7 @@ const CopyWebpackPlugin = require('copy-webpack-plugin');
 const webpack = require('webpack');
 
 module.exports = {
-  entry: { popup: './src/index.js', background: './src/background.js' },
+  entry: { popup: './src/index.js', background: './src/background.js'},
   module: {
     rules: [
       {
@@ -14,7 +14,13 @@ module.exports = {
         use: {
           loader: "babel-loader",
           options: {
-            presets: ['@babel/preset-env', '@babel/preset-react']
+            presets: [
+                '@babel/preset-env', 
+                '@babel/preset-react'
+            ],
+            plugins: [
+                    '@babel/transform-runtime'
+            ]
           }
         }
       },

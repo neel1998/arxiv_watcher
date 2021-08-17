@@ -1,15 +1,14 @@
-import React, { Component } from 'react';
-import './App.css';
+import React, { useState } from 'react';
+import './ArxivWatcher.css';
 
 
 export default function Papers(props) {
-
+	const [isNew, setNew] = useState(props.new);
 	const openPaperLink = (link) => {
-		 chrome.tabs.create({ url: link });
+		chrome.tabs.create({ url: link });
 	}
-
 	return (
-		<div className="paperContainer" onClick = {() => openPaperLink(props.link)}>
+		<div className={isNew ? "newPaperContainer" : "paperContainer"} onClick = {() => openPaperLink(props.link)}>
 			{props.title}
 		</div>
 	)
