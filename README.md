@@ -11,7 +11,7 @@ Not anymore!!!
 
 
 <p align="center">
-    <img src = "docs/demo.gif" />
+    <img width = "100%" src = "docs/demo.gif" />
 </p>
 
 Not only does this extension shows the latest papers added, but it checks arxiv in background at specific intervals and notifies the users whenever a new paper is added. Like this,
