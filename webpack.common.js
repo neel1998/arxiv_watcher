@@ -48,6 +48,7 @@ module.exports = {
         { from: './public/manifest.json' },
         { from: './public/logo192.png' },
         { from: './public/logo512.png' },
+        { from: './public/arxiv_watcher_logo_512.png'}
       ],
     }),
   ],

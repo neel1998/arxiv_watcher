@@ -9,6 +9,6 @@
     "scripts": ["background.js"],
     "persistent": true
   },
-  "icons": { "16": "logo192.png", "48": "logo512.png" },
+  "icons": { "16": "arxiv_watcher_logo_512.png", "48": "arxiv_watcher_logo_512.png" },
   "permissions": ["notifications", "storage", "tabs", "<all_urls>", "alarms"]
 }

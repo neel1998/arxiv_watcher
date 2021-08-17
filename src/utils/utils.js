@@ -6,7 +6,7 @@ var options = {
   type: "basic",
   title: "Notification from Arxiv Watcher",
   message: "New papers added to arxiv for the keywords you are watching",
-  iconUrl: "logo512.png"
+  iconUrl: "arxiv_watcher_logo_512.png"
 };
 function callback(){
     console.log('Popup done!')

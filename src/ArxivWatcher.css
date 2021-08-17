@@ -1,4 +1,6 @@
 .App {
+  font-family: 'Montserrat', sans-serif;
+  font-family: 'Raleway', sans-serif;
 }
 
 .mainContainer {
@@ -10,12 +12,25 @@
   align-items: center;
 }
 
+.inputContainer input {
+  font-family: 'Raleway', sans-serif;
+  border-radius: 10px;
+  padding: 5px;
+  background-color: #B3B3B3;
+}
+
 .addButton {
   margin: 20px;
-  background-color: #482f34;
+  background-color: #006063;
   border-radius: 10px;
   color: #ffffff;
   padding: 10px;
+  transition: 0.2s all;
+}
+
+.addButton:hover {
+  cursor: pointer;
+  background-color: #02A2A7;
 }
 
 .keywordsContainer {
@@ -29,17 +44,17 @@
   margin: 3px;
   border-radius: 10px;
   padding: 5px;
-  background-color: #E0FEFF;
-  border: 1px solid #2CDCE4;
-  color: #2CDCE4;
-  align-items: stretch;
+  background-color: #9AB7B8;
+  color: #487476;
+  align-items: center;
+  justify-content: center;
 }
 
 .keywordRemoveButton {
   height: 20px;
   width: 20px;
   border-radius: 100%;
-  background-color: red;
+  background-color: #750E02;
   color: #ffffff;
   margin-left: 10px;
   display: flex;
@@ -47,14 +62,28 @@
   justify-content: center; 
 }
 
+.keywordRemoveButton:hover {
+  cursor: pointer;
+}
+
 .paperContainer {
   padding: 10px;
   text-align: left;
-  color: #282c34;
+  color: #B3B3B3;
   margin-top: 5px;
   width: 100%;
-  background-color: #B8B8B8;
+  background-color: #404040;
   border-radius: 20px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  transition: 0.2s all;
+}
+
+.paperContainer:hover {
+  cursor: pointer;
+  background-color: #B3B3B3;
+  color: #404040;
 }
 
 .papersContainer {
