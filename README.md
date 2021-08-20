@@ -4,7 +4,7 @@
   <img height="300" src="docs/logo.png">
 </p>
 
-# Do you find it tedious to constantly check arxiv for newly added papers for the research topic you are working on?
+## Do you find it tedious to constantly check arxiv for newly added papers for the research topic you are working on?
 
 Not anymore!!!
 
