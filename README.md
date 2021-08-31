@@ -21,11 +21,13 @@ Not only does this extension shows the latest papers added, but it checks arxiv 
     <img src = "docs/notification.png"/>
 </p>
 
-# How to use
+# Add to chrome
 
-The extension is still in development stages. Soon it will be published on the chrome web store.
+The extension is published on the chrome web store and can be added to your browser from [here](https://chrome.google.com/webstore/detail/arxiv-watcher/dmiglaegdelenllhmnhkobceicoppjfd)
 
-For now to use and test this extension, clone this repo and then run the following commands:
+# Development
+
+To locally build and test this extension, clone this repo and then run the following commands:
 
 ```
 npm install
